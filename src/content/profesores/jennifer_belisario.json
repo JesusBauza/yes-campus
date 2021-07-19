@@ -1,12 +1,12 @@
 {
   "programas": {
     "general": true,
-    "young-entrepeneur": false,
+    "young-entrepeneur": true,
     "full-inclusion": false,
     "young-leaders": false,
     "evolution": false
   },
   "nombre": "Jennifer Belisario",
   "ocupacion": "Especialista en Empresas B y Marketing",
-  "thumbnail": "https://i.postimg.cc/7YbdhQdS/Jennifer-Belisario.jpg"
+  "thumbnail": "uploads/19533909_1719713398057289_3490633901301301248_n.jpg"
 }

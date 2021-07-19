@@ -1,0 +1,12 @@
+{
+  "programas": {
+    "general": true,
+    "young-entrepeneur": true,
+    "full-inclusion": false,
+    "young-leaders": false,
+    "evolution": false
+  },
+  "nombre": "Evelyn González",
+  "ocupacion": "Especialista en finanzas",
+  "thumbnail": "uploads/evelyn_gonzalez.jpg"
+}

@@ -1,0 +1,12 @@
+{
+  "programas": {
+    "general": true,
+    "young-entrepeneur": true,
+    "full-inclusion": false,
+    "young-leaders": false,
+    "evolution": false
+  },
+  "nombre": "Juan Carlos Beirnz",
+  "ocupacion": "Especialista en Aceleración Empresarial y Desarrollo de Nuevos Productos",
+  "thumbnail": "uploads/juan_carlos_berzins.jpg"
+}

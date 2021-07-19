@@ -1,0 +1,9 @@
+{
+  "nombre": "Manuel Malavé",
+  "ocupacion": "Especialista en diseño",
+  "thumbnail": "uploads/manuel_malave.jpg",
+  "programas": {
+    "general": true,
+    "young-entrepeneur": true
+  }
+}

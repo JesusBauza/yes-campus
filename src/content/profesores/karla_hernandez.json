@@ -1,0 +1,12 @@
+{
+  "programas": {
+    "general": true,
+    "young-entrepeneur": true,
+    "full-inclusion": false,
+    "young-leaders": false,
+    "evolution": false
+  },
+  "nombre": "Karla Hernández",
+  "ocupacion": "Especialista en Finanzas y Estrategias de Negocio",
+  "thumbnail": "uploads/karla_hernandez.jpg"
+}
