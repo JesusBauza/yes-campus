@@ -78,18 +78,18 @@
     class="flex flex-col py-16 content-lg"
     in:fly={{x: -100, duration: 1000, delay: 200}}
   >
-    <div class="flex flex-col w-full lg:items-center lg:flex-row">
+    <div class="flex flex-col w-full lg:flex-row lg:items-center">
       <div class="w-full">
-        <h1 class="flex mb-6 text-5xl font-bold leading-none md:text-6xl font-title">Blog
+        <h1 class="flex font-bold font-title mb-6 leading-none text-5xl md:text-6xl">Blog
         </h1>
-        <p class="text-3xl font-bold leading-none md:text-4xl font-title">Lee nuestro más reciente contenido</p>
+        <p class="font-bold font-title leading-none text-3xl md:text-4xl">Lee nuestro más reciente contenido</p>
       </div>
     </div>
   </div>
-  <div class="flex py-12 -mt-16 content-lg">
+  <div class="flex -mt-16 py-12 content-lg">
     <input
       type="text"
-      class="w-full mx-auto text-center input"
+      class="mx-auto text-center w-full input"
       placeholder="Buscar..."
       bind:value={search} on:input={() => { items = []; page = 1 }}
     >
@@ -98,7 +98,7 @@
     {#if !items.length}
       <p
         in:fade|local={{ duration: 100 }}
-        class="pb-12 text-center t-h3"
+        class="text-center pb-12 t-h3"
         >No se ha encontrado nada</p
       >
     {:else}
@@ -112,15 +112,15 @@
           {#each items as i, idx}
             <a
               href={i.url}
-              class="relative rounded cursor-pointer talk"
+              class="rounded cursor-pointer relative talk"
               class:search={search.trim().length}
-              style="--talk-image: url({getImg(i.thumbnail)})"
+              style={`--talk-image: ${i.thumbnail ? `url(${getImg(i.thumbnail)})` : 'rgb(200, 200, 200)'}`}
               in:fade|local={{ duration: 400 }}
               >
               <div class="absolute pointer-events-none talk-bg"></div>
-              <div class="p-6 font-bold pointer-events-none transform">
+              <div class="font-bold p-6 transform pointer-events-none">
                 <h1
-                  class="mb-4 text-3xl font-bold leading-none"
+                  class="font-bold mb-4 leading-none text-3xl"
                   class:lg:text-5xl={idx == 0 && !search.trim().length}
                   class:lg:text-2xl={idx > 0 || search.trim().length}
                   >{i.title}</h1

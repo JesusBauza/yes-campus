@@ -35,8 +35,8 @@
     {#each elements as el, i}
       <li class:active={index == i} on:click={() => { resetInterval(); index = i; }} class="cursor-pointer">
         <div class="flex flex-col pointer-events-none">
-          <h2 class="t-h3 duration-200" class:text-yes-blue-400={index == i}>{i + 1}. {el.title}</h2>
-          <p class="font-light t-p duration-200 transform" class:-translate-x-4={index != i} class:opacity-0={index != i}>{el.description}</p>
+          <h2 class="duration-200 t-h3" class:text-yes-blue-400={index == i}>{i + 1}. {el.title}</h2>
+          <p class="font-light transform duration-200 t-p" class:-translate-x-4={index != i} class:opacity-0={index != i}>{el.description}</p>
         </div>
       </li>
     {/each}
@@ -59,7 +59,7 @@
   }
 
   li:hover h2 {
-    @apply text-leaders-sky;
+    @apply text-yes-blue-400;
   }
 
   /* The actual line being placed before each list item, tweak width and color as appropriate */
@@ -102,11 +102,11 @@
     height: 16px;
     left: -2px;
     top: 0;
-    background-image: url("/images/leaders/bullet.svg");
+    background-image: url("/images/yefi/bullet.svg");
   }
 
   :global(.dark) li.active::after {
-    background-image: url("/images/leaders/bullet-dark.svg");
+    background-image: url("/images/yefi/bullet-dark.svg");
   }
 
   /* Start the line further down on the first list item */
