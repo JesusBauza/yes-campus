@@ -36,7 +36,9 @@
         </div>
         <h1 class="flex mb-12 text-3xl font-bold leading-none md:text-5xl font-title">{title}</h1>
         <p class="py-1 pb-2 pl-6 text-xl font-bold leading-none border-l-4 border-yes-blue-500 md:text-xl font-title">{description}</p>
-        <Img src={thumbnail} class="w-full mt-16 rounded-lg" />
+        {#if thumbnail}
+          <Img src={thumbnail} class="w-full mt-16 rounded-lg" />
+        {/if}
       </div>
     </div>
   </div>
