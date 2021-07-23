@@ -3,6 +3,7 @@
   "ocupacion": "Especialista en Derechos Humanos y Coach",
   "nombre": "Delia Rivas",
   "programas": {
-    "general": true
+    "general": true,
+    "full-inclusion": true
   }
 }
