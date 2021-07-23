@@ -2,7 +2,7 @@
   "programas": {
     "general": true,
     "young-entrepeneur": true,
-    "full-inclusion": false,
+    "full-inclusion": true,
     "young-leaders": true,
     "evolution": false
   },
