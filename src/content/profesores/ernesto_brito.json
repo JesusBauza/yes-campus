@@ -3,6 +3,7 @@
   "ocupacion": "Especialista en Branding",
   "nombre": "Ernesto Brito",
   "programas": {
-    "general": true
+    "general": true,
+    "full-inclusion": true
   }
 }
