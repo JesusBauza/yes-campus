@@ -2,6 +2,7 @@
 title: ¿Regulaciones o iniciativas? Las empresas de triple impacto
 description: "Autor: Mba. Ángel Márquez, especialista en gestión de procesos."
 date: 2021-06-14T11:30:17.354Z
+thumbnail: uploads/blog/regulaciones_o_iniciativas_las_empresas_de_triple_impacto/crema-joe-seazb3ryayo-unsplash.jpg
 ---
 En la actualidad, las organizaciones están evolucionando, por factores externos como la pandemia por Covid-19, regulaciones políticas y económicas, entre otras; y por factores internos como cultura organizacional, mejora y optimización de procesos con el fin de garantizar el beneficio para todos los grupos de interés.
 
