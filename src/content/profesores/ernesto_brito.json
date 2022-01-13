@@ -1,9 +1,10 @@
 {
-  "thumbnail": "https://i.postimg.cc/kGJL1RR3/Ernesto-brito.jpg",
+  "thumbnail": "uploads/ernesto-brito-rectangular.png",
   "ocupacion": "Especialista en Branding",
   "nombre": "Ernesto Brito",
   "programas": {
     "general": true,
-    "full-inclusion": true
+    "full-inclusion": true,
+    "young-entrepeneur": true
   }
 }
