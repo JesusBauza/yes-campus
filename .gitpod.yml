@@ -4,7 +4,7 @@
 
 tasks:
   - init: nvm install lts/fermium && yarn install && yarn run build
-    command: yarn run start
+    command: yarn run dev
 vscode:
   extensions:
     - dbaeumer.vscode-eslint
