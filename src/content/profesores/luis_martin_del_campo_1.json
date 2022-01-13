@@ -3,10 +3,10 @@
     "general": true,
     "young-entrepeneur": false,
     "full-inclusion": false,
-    "young-leaders": false,
+    "young-leaders": true,
     "evolution": false
   },
   "nombre": "Luis Martín Del Campo",
-  "ocupacion": "Maestro en Administración en Energía y Fuentes Renovables",
-  "thumbnail": "https://i.postimg.cc/ZKyH1kXs/Luis-Martin-Del-Campo.jpg"
+  "ocupacion": "Master en Administración en Energía y Fuentes Renovables",
+  "thumbnail": "uploads/luis-martin-delcampo-rectangular.png"
 }
