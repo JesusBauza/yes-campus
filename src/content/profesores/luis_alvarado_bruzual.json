@@ -1,6 +1,6 @@
 {
   "programas": {
-    "general": true,
+    "general": false,
     "young-entrepeneur": false,
     "full-inclusion": false,
     "young-leaders": true,
