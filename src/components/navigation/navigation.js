@@ -60,7 +60,7 @@ export default [
       },
       {
         titulo: 'Viva Emprende',
-        href: 'https://yescampus.io/vivaemprende',
+        href: 'https://es.yescampus.io/vivaemprende',
       },
       {
         titulo: 'Girl E',
