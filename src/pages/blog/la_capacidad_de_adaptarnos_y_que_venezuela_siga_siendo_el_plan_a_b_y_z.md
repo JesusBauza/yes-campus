@@ -1,5 +1,5 @@
 ---
-title: Caso del Grupo Ubii como inspiración para el diseño de productos exitosos
+title: "Caso de estudio: Grupo Ubii"
 description: |-
   La capacidad de adaptarnos y que Venezuela siga siendo el plan A, B y Z.
 
@@ -7,7 +7,7 @@ description: |-
 
   IG: @ligisvelasquez
 date: 2021-02-12T00:29:54.738Z
-thumbnail: uploads/blog/caso_del_grupo_ubii_como_inspiracion_para_el_diseno_de_productos_exitosos-/miniatura.png
+thumbnail: uploads/blog/caso_de_estudio_grupo_ubii/yescampus_blog_yestalk_diseno-de-producto.png
 ---
 ## La capacidad de adaptarnos y que Venezuela siga siendo el plan A, B y Z.
 
