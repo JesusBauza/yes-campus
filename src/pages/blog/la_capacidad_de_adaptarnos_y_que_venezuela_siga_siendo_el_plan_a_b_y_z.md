@@ -1,11 +1,7 @@
 ---
 title: "Caso de estudio: Grupo Ubii"
-description: |-
-  La capacidad de adaptarnos y que Venezuela siga siendo el plan A, B y Z.
-
-  Escrito por: Ligia Velásquez, VP de comunicación y mercadeo en Grupo Ubii.
-
-  IG: @ligisvelasquez
+description: "Escrito por: Ligia Velásquez, VP de comunicación y mercadeo en
+  Grupo Ubii. 🌐 IG: @ligisvelasquez"
 date: 2021-02-12T00:29:54.738Z
 thumbnail: uploads/blog/caso_de_estudio_grupo_ubii/yescampus_blog_yestalk_diseno-de-producto.png
 ---
