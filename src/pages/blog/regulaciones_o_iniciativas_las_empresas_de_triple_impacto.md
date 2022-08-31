@@ -8,8 +8,6 @@ En la actualidad, las organizaciones están evolucionando, por factores externos
 
 **Cuando hablamos de grupos de interés, nos referimos a sus accionistas, directivos, colaboradores, clientes, proveedores, sindicados, comunidad local, sociedad en general y medio ambiente. Como vemos, las empresas del siglo XXI evolucionaron para ser empresas de triple impacto, que generen rentabilidad, sin sacrificar el medio ambiente y el beneficio social.**
 
-![Desarrollo sostenible - triple impacto]( "Triple impacto")
-
 Suena algo idílico esta nueva tendencia y te preguntarás, ¿cómo la integro dentro de mi empresa? Lo más importante es empezar por reconocer en la actualidad como están tus procesos, que estás haciendo bien o mal y en qué áreas hay oportunidades de mejora. Una vez hagas una matriz FODA (Fortalezas, Oportunidades, Debilidades y Amenazas) de tu empresa enfocada en todos los procesos, podrás evaluar qué acciones realizar para ser una empresa de triple impacto.
 
 Ahora bien, en las empresas tenemos distintos tipos de procesos; operativos, administrativos, legales, talento humano, comerciales, calidad, entre otros, la forma como los gestionemos dice mucho sobre nuestra empresa. Ojo, con esto no quiero decir que debemos reestructurarla y generar cambios agobiantes que podrían tener consecuencias devastadoras para la empresa, por el contrario, conociendo nuestros procesos podremos asumir que políticas empezar a implementar para ser una empresa de triple impacto.
