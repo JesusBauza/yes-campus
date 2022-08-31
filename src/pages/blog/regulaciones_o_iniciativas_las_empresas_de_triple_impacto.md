@@ -2,13 +2,13 @@
 title: ¿Regulaciones o iniciativas? Las empresas de triple impacto
 description: "Autor: Mba. Ángel Márquez, especialista en gestión de procesos."
 date: 2021-06-14T11:30:17.354Z
-thumbnail: uploads/blog/regulaciones_o_iniciativas_las_empresas_de_triple_impacto/crema-joe-seazb3ryayo-unsplash.jpg
+thumbnail: uploads/blog/regulaciones_o_iniciativas_las_empresas_de_triple_impacto/prueba_3.png
 ---
 En la actualidad, las organizaciones están evolucionando, por factores externos como la pandemia por Covid-19, regulaciones políticas y económicas, entre otras; y por factores internos como cultura organizacional, mejora y optimización de procesos con el fin de garantizar el beneficio para todos los grupos de interés.
 
 **Cuando hablamos de grupos de interés, nos referimos a sus accionistas, directivos, colaboradores, clientes, proveedores, sindicados, comunidad local, sociedad en general y medio ambiente. Como vemos, las empresas del siglo XXI evolucionaron para ser empresas de triple impacto, que generen rentabilidad, sin sacrificar el medio ambiente y el beneficio social.**
 
-![Desarrollo sostenible - triple impacto](uploads/blog/regulaciones_o_iniciativas_las_empresas_de_triple_impacto/crema-joe-seazb3ryayo-unsplash.jpg "Triple impacto")
+![Desarrollo sostenible - triple impacto]( "Triple impacto")
 
 Suena algo idílico esta nueva tendencia y te preguntarás, ¿cómo la integro dentro de mi empresa? Lo más importante es empezar por reconocer en la actualidad como están tus procesos, que estás haciendo bien o mal y en qué áreas hay oportunidades de mejora. Una vez hagas una matriz FODA (Fortalezas, Oportunidades, Debilidades y Amenazas) de tu empresa enfocada en todos los procesos, podrás evaluar qué acciones realizar para ser una empresa de triple impacto.
 
