@@ -2,7 +2,7 @@
 title: El entorno digital y las marcas
 description: "Eduardo Méndez, Asesor y mentor de marcas. IG: @eduardomendez"
 date: 2021-02-25T17:17:55.155Z
-thumbnail: uploads/blog/el_entorno_digital_y_las_marcas/el_entorno_digital_y_las_marcas.jpg
+thumbnail: uploads/blog/el_entorno_digital_y_las_marcas/yescampus_blog_yestalk_eduardo-mendez.png
 ---
 # ¿Qué está pasando hoy en día en el entorno digital de las marcas y personas?
 
