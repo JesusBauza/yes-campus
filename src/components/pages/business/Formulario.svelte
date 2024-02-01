@@ -42,7 +42,7 @@
     }
 
     sending = true
-    fetch('https://api.yescampus.io/formularios/business', {
+    fetch('https://api.yescampus.co/formularios/business', {
       method: 'POST',
       headers: {
         'Accept': 'application/json',

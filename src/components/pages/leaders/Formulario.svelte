@@ -69,7 +69,7 @@
     }
 
     sending = true
-    fetch('https://api.yescampus.io/formularios/leaders', {
+    fetch('https://api.yescampus.co/formularios/leaders', {
       method: 'POST',
       headers: {
         'Accept': 'application/json',

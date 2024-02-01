@@ -56,11 +56,11 @@ export default [
       },
       {
         titulo: 'Young Leaders',
-        href: 'https://es.yescampus.io/leaders',
+        href: 'https://es.yescampus.co/leaders',
       },
       {
         titulo: 'Viva Emprende',
-        href: 'https://es.yescampus.io/vivaemprende',
+        href: 'https://es.yescampus.co/vivaemprende',
       },
       {
         titulo: 'Girl E',

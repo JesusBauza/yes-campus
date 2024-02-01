@@ -107,7 +107,7 @@
     }
 
     sending = true
-    fetch('https://api.yescampus.io/formularios/girle', {
+    fetch('https://api.yescampus.co/formularios/girle', {
       method: 'POST',
       headers: {
         'Accept': 'application/json',

@@ -41,7 +41,7 @@
     }
 
     sending = true
-    fetch('https://api.yescampus.io/formularios/evolution', {
+    fetch('https://api.yescampus.co/formularios/evolution', {
       method: 'POST',
       headers: {
         'Accept': 'application/json',

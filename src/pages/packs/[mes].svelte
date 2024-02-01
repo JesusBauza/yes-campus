@@ -18,7 +18,7 @@
   let suscritos
 
   const isEmpty = str => !str.trim().length
-  const getSuscritos = () => fetch('https://api.yescampus.io/yespacks/suscritos', {
+  const getSuscritos = () => fetch('https://api.yescampus.co/yespacks/suscritos', {
     method: 'POST',
     headers: {
       'Accept': 'application/json',
@@ -33,7 +33,7 @@
     .then(res => (suscritos = res.suscritos))
   $: getSuscritos()
 
-  let post = () => fetch('https://api.yescampus.io/yespacks', {
+  let post = () => fetch('https://api.yescampus.co/yespacks', {
     method: 'POST',
     headers: {
       'Accept': 'application/json',

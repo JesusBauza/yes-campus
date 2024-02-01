@@ -104,7 +104,7 @@
     }
 
     sending = true
-    fetch('https://api.yescampus.io/formularios/full-inclusion', {
+    fetch('https://api.yescampus.co/formularios/full-inclusion', {
       method: 'POST',
       headers: {
         'Accept': 'application/json',
