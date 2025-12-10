@@ -16,6 +16,7 @@ export default defineConfig({
             '/$collections': path.resolve(__dirname, './src/collections'),
             '/$components': path.resolve(__dirname, './src/components'),
             '/$lib': path.resolve(__dirname, './src/lib'),
+            '@roxi/routify/runtime': path.resolve(__dirname, 'node_modules/@roxi/routify/runtime'),
         }
     },
     optimizeDeps: {
