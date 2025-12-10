@@ -7,6 +7,9 @@
     "url": "https://github.com/juandroid007"
   },
   "version": "0.0.0",
+  "engines": {
+    "node": ">=20.0.0"
+  },
   "scripts": {
     "clean": "gulp clean",
     "gulp:dev": "gulp",
