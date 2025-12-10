@@ -12,7 +12,7 @@ export default defineConfig({
     ],
     resolve: {
         alias: {
-            '/$/': path.resolve(__dirname, './src'),
+            '/$/': path.resolve(__dirname, './src') + '/',
             '/$collections': path.resolve(__dirname, './src/collections'),
             '/$components': path.resolve(__dirname, './src/components'),
             '/$lib': path.resolve(__dirname, './src/lib'),
