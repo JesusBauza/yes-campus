@@ -64,11 +64,13 @@
     filter: grayscale(0);
   }
 
-  .gallery :global(h2, p) {
+  .gallery :global(h2),
+  .gallery :global(p) {
     transition: transform 0.4s, opacity 0.4s;
   }
 
-  .gallery :global(.gallery-item:hover h2, .gallery-item:hover p) {
+  .gallery :global(.gallery-item:hover h2),
+  .gallery :global(.gallery-item:hover p) {
     opacity: 0;
     transform: translateY(-1rem);
   }
