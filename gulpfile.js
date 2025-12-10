@@ -23,13 +23,13 @@ const updateServiceWorker = () => {
   const flatDeep = arr => arr.reduce((acc, val) => acc.concat(Array.isArray(val) ? flatDeep(val) : val), [])
 
   const tree = (root) => fs.readdirSync(root, { withFileTypes: true })
-    .filter(element => ! skip.includes(element.name) && ! element.name.endsWith('.map'))
+    .filter(element => !skip.includes(element.name) && !element.name.endsWith('.map'))
     .map(element => element.isDirectory()
       ? tree(`${root}/${element.name}`)
       : `${root}/${element.name}`)
 
   const listAllFiles = flatDeep(fs.readdirSync(root, { withFileTypes: true })
-    .filter(dir => dir.isDirectory() && ! skip.includes(dir.name))
+    .filter(dir => dir.isDirectory() && !skip.includes(dir.name))
     .map(dir => tree(`${root}/${dir.name}`)))
     .map(path => path.substring(root.length))
 
@@ -111,13 +111,31 @@ exports.injectMetadata = injectMetadata
 const replacePreload = () => {
   const { readFileSync } = fs
   const html = readFileSync('./dist/index.html', 'utf-8')
-  const script = html.match(/src="\/(_assets\/index.\w+.js)"/)[1]
-  const scriptBuff = readFileSync('./dist/'+script, 'utf-8')
-  console.log(scriptBuff)
-  const folder = scriptBuff.match(/(_folder.\w+.js)/)[1]
-  console.log(folder)
-  const dest = `<link rel="modulepreload" href="/${script}" />
-<link rel="modulepreload" href="/_assets/${folder}" />`
+  // Original regex was strict about /_assets/
+  // const script = html.match(/src="\/(_assets\/index.\w+.js)"/)[1]
+
+  // Try to find the main entry script more flexibly
+  const match = html.match(/src="\/([^"]*index[^"]*\.js)"/)
+  if (!match) {
+    console.warn('Could not find main index script in html for preloading. Skipping.')
+    return gulp.src('dist/index.html')
+  }
+  const script = match[1]
+
+  // Attempt to find nested module imports if possible, or just preload the main script
+  let dest = `<link rel="modulepreload" href="/${script}" />`
+
+  try {
+    const scriptBuff = readFileSync('./dist/' + script, 'utf-8')
+    // Look for other large chunks or specific patterns if needed
+    // adapting the old logic loosely:
+    const folderMatch = scriptBuff.match(/["']([^"']*_folder[^"']*\.js)["']/)
+    if (folderMatch) {
+      dest += `\n<link rel="modulepreload" href="${folderMatch[1]}" />`
+    }
+  } catch (e) {
+    console.warn('Could not read script file to find extra preloads', e)
+  }
   return gulp.src('dist/index.html')
     .pipe(replace('<!-- inject:preload -->', dest))
     .pipe(gulp.dest('dist'))
